@@ -1,0 +1,30 @@
+<main>
+  <h1>Minesweeper</h1>
+  <select class="input" id="difficulty">
+    <option selected>Beginner</option>
+    <option>Intermediate</option>
+    <option>Expert</option>
+    <select>
+      <button class="input" id="reset-btn">New Game</button>
+      <div id="GameScreen">
+        <div id="board"></div>
+        <div id="bottom-text">
+          <p id="time-text">Time: <span id="time">0</span></p>
+          <p id="mines-text">Mines: <span id="mines"></span></p>
+        </div>
+        <div id="GameOverScreen" class="screen">
+          <div id="gameOverBackground">
+            <h1 id="gameOver-title" class="screen-title"></h1>
+            <p>Zeit: <span id="playedTime"></span></p>
+            <div id="screenStatistics">
+              <p>Bestzeit: <span id="bestTime"></span></p>
+              <p>Gespielte Spiele: <span id="playedGames"></span></p>
+              <p>Gewonnene Spiele: <span id="wonGames"></span> <span id="wonGamesPercent"></span></p>
+            </div>
+            <button class="input" id="newGameBtn">New Game</button>
+          </div>
+        </div>
+        <button id="statisticBtn">Show statistic</button>
+
+</main>
+<div id="statistic"></div>
